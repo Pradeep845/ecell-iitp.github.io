@@ -130,9 +130,21 @@ a.white {
 .testimonial-author {
 	font: 700 1rem/1.5rem "Raleway", sans-serif;
 }
-
+#startin{
+	padding-top: 15px;
+	font: 700 1.75rem/2rem "Raleway", sans-serif;
+	color:#00bfd8;
+}
+#startinname{
+	font-size: 40px;
+	color: black;
+}
+#coming{
+	font-size: 20px;
+}
 .turquoise {
 	color: #00bfd8;
+	font-size: 38px;
 }
 
 .btn-solid-reg {
@@ -155,20 +167,20 @@ a.white {
 
 .btn-solid-lg {
 	display: inline-block;
-	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00bfd8;
-	border-radius: 2rem;
-	background-color: #00bfd8;
-	color: #fff;
-	font: 700 0.75rem/0 "Raleway", sans-serif;
-	text-decoration: none;
-	transition: all 0.2s;
+	padding: 20px;
+	border-radius: 1.5rem;
+	background-color:#00bfd8;
+	color: black  !important ;
+	font: 700 14px/0 "Raleway", sans-serif;
+	transition: all 0.3s;
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
+		border: 0.125rem solid #00bfd8;
+	scale: 1.06;
+	cursor: pointer;
+	background-color: blanchedalmond;
 	color: #00bfd8;
-	text-decoration: none;
 }
 
 .btn-outline-reg {
@@ -1613,7 +1625,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .text-container.dark-bg {
-	padding: 1.625rem 1.5rem 0.75rem 2rem;
+	padding: 1.125rem 1.5rem 0.75rem 2rem;
 	background-color: #f9fafc;
 }
 
